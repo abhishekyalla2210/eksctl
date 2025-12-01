@@ -9,5 +9,5 @@ spec:
       image: nginx
       envFrom:
       - ConfigMapRef:
-        name: config-demo
+         name: config-demo
 
