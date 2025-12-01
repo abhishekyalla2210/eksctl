@@ -1,7 +1,8 @@
 apiVersion: v1 
 kind: Pod
 metadata:
-  name: label 
+  name: label-demo
+  namespace: roboshop-dev 
   labels:
     course: kubernetes
     dur: 150
