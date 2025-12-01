@@ -3,5 +3,5 @@ kind: Pod
 metadata:
   name: config-demo
 data:   
-  course: devops
+  course: "devops"
   dur: "120"
