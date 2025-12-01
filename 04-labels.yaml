@@ -5,7 +5,7 @@ metadata:
   namespace: roboshop-dev 
   labels:
     course: kubernetes
-    dur: 150
+    dur: "150"
 spec:
   containers: 
     - name: nginx
