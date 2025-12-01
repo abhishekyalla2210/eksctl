@@ -4,5 +4,5 @@ metadata:
   name: error-demo
 spec:
   containers:
-    - name:nginx
-      image:nginxxsmnoaub
+    - name: nginx
+      image: nginxxsmnoaub
