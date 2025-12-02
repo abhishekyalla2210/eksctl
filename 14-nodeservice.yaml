@@ -9,7 +9,7 @@ spec:
     environment: development
     purpose: node-port
   ports:
-  protocol: TCP
-  port: 80
-  targetPort: 80
+    protocol: TCP
+    port: 80
+    targetPort: 80
 
