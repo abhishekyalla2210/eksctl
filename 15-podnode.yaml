@@ -6,9 +6,9 @@ metadata:
     project: roboshop 
     environment: development
     purpose: node-port
-  spec: 
-    containers:
-      - name: nginx
-        image: nginx
+spec: 
+  containers:
+     - name: nginx
+       image: nginx
         
          
