@@ -12,6 +12,7 @@ spec:
       purpose: replicaset-demo
   template:
     metadata:
+     labels:
       project: roboshop
       purpose: replicaset-demo
   spec:
