@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: roboshop
   name: replica-demo
   labels:
     project: roboshop
@@ -25,10 +26,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: service-demo    
+  name: service-demo 
+    namespace: roboshop
+   
 spec:  
   type: LoadBalancer
   selector:
+
     project: roboshop
     purpose: replicaset-demo
   ports:
